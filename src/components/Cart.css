@@ -1,0 +1,24 @@
+.Cart {
+  background: white;
+  margin: 5rem auto;
+  width: 46.875rem;
+  border-radius: 0.625rem;
+  box-shadow: 0 5px 10px 3px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+
+.Cart-title {
+  color: grey;
+  border-bottom: 1px solid grey;
+  padding: 1rem;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.Cart-total {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 2rem;
+}
